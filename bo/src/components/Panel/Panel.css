@@ -1,0 +1,68 @@
+#menu {
+    float: left;
+    clear: none;
+}
+
+#panel {
+    display: flex;
+    position: relative;
+}
+
+.tableWrapper {
+    max-height: 34vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 0.6em;
+    margin-left: 20px;
+    width: calc(100vw - 240px);
+}
+
+table {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+th, td {
+    text-align: left;
+}
+td {
+    padding: 10px 10px;
+}
+
+thead tr th {
+    position: sticky;
+    top: 0;
+    box-shadow: inset 0 -1px 0 #303030;
+    padding: 15px 10px;
+}
+
+.lastTd {
+    box-shadow: inset 0 1px 0 #303030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    bottom: 0;
+    background-color: #909090;
+}
+
+th {
+    background-color: #3431E7;
+    font-family: nexa-light;
+    font-weight: bold;
+    color: white;
+}
+
+td {
+    font-family: nexa-light;
+    color: #303030;
+}
+
+tr {
+    background-color: lightgray;
+}
+
+.alt {
+    background-color: #C0C0C0;
+}

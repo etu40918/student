@@ -1,0 +1,16 @@
+@font-face {
+    font-family: nexa-bold;
+    src: url("CSS/font/Nexa_Bold.otf");
+}
+
+@font-face {
+    font-family: nexa-light;
+    src: url("CSS/font/Nexa_Light.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #303030;
+    color: white;
+}
