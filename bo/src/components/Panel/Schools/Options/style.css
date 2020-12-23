@@ -1,0 +1,20 @@
+#addOptionButton {
+    float: left;
+    margin-left: 40px;
+    font-family: nexa-light;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 0.6em;
+    border: 1px solid #3431E7;
+    color: #3431E7;
+    outline: 0;
+}
+
+#addOptionButton:hover {
+    transition: background-color 0.3s linear, color 0.3s linear, border 0.3s linear;
+    background-color: #3431E7;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}

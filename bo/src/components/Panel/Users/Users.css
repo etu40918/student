@@ -1,0 +1,92 @@
+#userTitle {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: nexa-bold;
+    color: #909090;
+    font-size: 200%;
+    display: inline-block;
+}
+
+#users {
+    margin-left: 200px;
+}
+
+.searchBox {
+    margin-top: 35px;
+    display: inline-block;
+    float: right;
+    background: #909090;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.searchBox .fa {
+    font-size: 75%;
+}
+
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+    background: white;
+    color : #909090;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.searchButton:focus {
+    outline: 0;
+}
+
+.searchInput {
+    font-family: nexa-light;
+    border:none;
+    background: none;
+    outline:none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+
+}
+
+.searchInput::placeholder {
+    color: white;
+}
+
+@media screen and (max-width: 620px) {
+    .searchBox:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+}
+
+tr td:nth-last-child(1), tr td:nth-last-child(2) {
+    text-align: center;
+}
+
+tr th:nth-last-child(1), tr th:nth-last-child(2) {
+    text-align: center;
+}
+
+
+
+

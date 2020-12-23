@@ -1,0 +1,123 @@
+.schoolTitle {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: nexa-bold;
+    color: #909090;
+    font-size: 200%;
+}
+
+#schools {
+    margin-left: 200px;
+}
+
+tr td:nth-last-child(1), tr td:nth-last-child(2), tr td:nth-last-child(3) {
+    text-align: center;
+}
+
+.editButton, .deleteButton, .optionsButton {
+    width: 34px;
+    height: 34px;
+}
+
+.addButton {
+    float: left;
+    margin-left: 40px;
+    font-family: nexa-light;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 0.6em;
+    border: 1px solid #3431E7;
+    color: #3431E7;
+    outline: 0;
+    transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+}
+
+.addButton:hover {
+    transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+    background-color: #3431E7;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+.newRow {
+    background-color: #e6e6e6;
+}
+
+.newRow input {
+    height: 25px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-family: nexa-light;
+    font-size: 101%;
+    outline: 0;
+    text-indent: 5px;
+}
+
+.newRow select {
+    height: 25px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-family: nexa-light;
+    font-size: 101%;
+    outline: 0;
+    text-indent: 5px;
+}
+
+.newRow input::placeholder {
+    text-transform: capitalize;
+}
+
+.saveNew {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: nexa-light;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 0.6em;
+    border: 1px solid green;
+    color: green;
+    outline: 0;
+    transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+}
+
+.saveNew:hover {
+    transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+    background-color: green;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+.cancelNew {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: nexa-light;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 0.6em;
+    border: 1px solid indianred;
+    color: indianred;
+    outline: 0;
+    transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+}
+
+.cancelNew:hover {
+    transition: background-color 0.15s linear, color 0.15s linear, border 0.15s linear;
+    background-color: indianred;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+.newRow .errorInput {
+    border: 1px solid indianred;
+}
